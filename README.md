@@ -28,7 +28,7 @@
     .bgimg-1 {
         background-position: center;
         background-size: cover;
-        background-image: url("BACKGROUNDPSITE.jpg");
+        background-image: url("BACKGROUNDPSITE2.jpg");
         min-height: 100%;
     }
 
@@ -42,7 +42,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
-         <a href="#home" class="w3-bar-item w3-button w3-wide">RcDesigners</a>
+        <a href="#home" class="w3-bar-item w3-button w3-wide">RcDesigners</a>
         <!-- Right-sided navbar links -->
         <div class="w3-right  w3-hide-small">
             <a href="#about" class="w3-bar-item w3-button">Sobre</a>
@@ -72,11 +72,10 @@
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-left w3-text-white" style="padding:48px"
-        <span class="w3-jumbo   w3-hide-small"></span><br>
+    <span class="w3-jumbo   w3-hide-small"></span><br>
     <span class="w3-jumbo w3-hide-small"></span><br>
-        <span class="w3-xxlarge w3-hide-large w3-hide-medium"</span><br>
-        <span class="w3-large">Algo Que Voce Queiram.</span>
-        <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"</span><br>
+    <span class="w3-large"></span>
     </div>
     <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -219,180 +218,180 @@
         </div>
         <div class="w3-col l3 m6">
             <img src="CARTAOUNHAPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cartao de Unha"
+        </div>
+
+        <div class="w3-row-padding w3-section">
+            <div class="w3-col l3 m6">
+                <img src="CARTAOCHADEBEBEPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cha De Bebe">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="CARTAOLINGERIEPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Langerie">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="CARTAOSALAODEBELEZAPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Salao De Beleza">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="CARTAOTRAILERRUAPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trailer">
+            </div>
+        </div>
     </div>
 
-    <div class="w3-row-padding w3-section">
-        <div class="w3-col l3 m6">
-            <img src="CARTAOCHADEBEBEPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cha De Bebe">
-        </div>
-        <div class="w3-col l3 m6">
-            <img src="CARTAOLINGERIEPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Langerie">
-        </div>
-        <div class="w3-col l3 m6">
-            <img src="CARTAOSALAODEBELEZAPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Salao De Beleza">
-        </div>
-        <div class="w3-col l3 m6">
-            <img src="CARTAOTRAILERRUAPRONTOJPEG.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trailer">
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
         </div>
     </div>
-</div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        <img id="img01" class="w3-image">
-        <p id="caption" class="w3-opacity w3-large"></p>
-    </div>
-</div>
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>Nossas Habilidades</h3>
+                <p>Escrever No Que Sao Bons<br>
 
-<!-- Skills Section -->
-<div class="w3-container w3-light-grey w3-padding-64">
-    <div class="w3-row-padding">
-        <div class="w3-col m6">
-            <h3>Nossas Habilidades</h3>
-            <p>Escrever No Que Sao Bons<br>
-
-            </p>
-            <p>           <br>
                 </p>
-        </div>
-        <div class="w3-col m6">
-            <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Oque</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-dark-grey w3-center" style="width:90%">Porcetagem</div>
+                <p>           <br>
+                </p>
             </div>
-            <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Oque</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-dark-grey w3-center" style="width:85%">Porcentagem</div>
+            <div class="w3-col m6">
+                <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Oque</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:90%">Porcetagem</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Oque</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:85%">Porcentagem</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Oque</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:75%">Porcentagem</div>
+                </div>
             </div>
-            <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Oque</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-dark-grey w3-center" style="width:75%">Porcentagem</div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="Precos">
+        <h3>Pacotes</h3>
+        <p class="w3-large">Escolha De Acordo Com Seus Bolso</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Pacote Basico</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$Preco</h2>
+                        <span class="w3-opacity"></span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Comprar</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-red w3-xlarge w3-padding-48">Pacote Pro</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b> Algo</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$Preco</h2>
+                        <span class="w3-opacity"></span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Comprar</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Pacote Premium</li>
+                    <li class="w3-padding-16"><b>Algo</b>Algo </li>
+                    <li class="w3-padding-16"><b>Algo</b>Algo</li>
+                    <li class="w3-padding-16"><b>Algo</b>Algo</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$Preco</h2>
+                        <span class="w3-opacity"></span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Comprar</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="Precos">
-    <h3>Pacotes</h3>
-    <p class="w3-large">Escolha De Acordo Com Seus Bolso</p>
-    <div class="w3-row-padding" style="margin-top:64px">
-        <div class="w3-third w3-section">
-            <ul class="w3-ul w3-white w3-hover-shadow">
-                <li class="w3-black w3-xlarge w3-padding-32">Pacote Basico</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide">$Preco</h2>
-                    <span class="w3-opacity"></span>
-                </li>
-                <li class="w3-light-grey w3-padding-24">
-                    <button class="w3-button w3-black w3-padding-large">Comprar</button>
-                </li>
-            </ul>
-        </div>
-        <div class="w3-third">
-            <ul class="w3-ul w3-white w3-hover-shadow">
-                <li class="w3-red w3-xlarge w3-padding-48">Pacote Pro</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16"><b>Algo</b> Algo</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide">$Preco</h2>
-                    <span class="w3-opacity"></span>
-                </li>
-                <li class="w3-light-grey w3-padding-24">
-                    <button class="w3-button w3-black w3-padding-large">Comprar</button>
-                </li>
-            </ul>
-        </div>
-        <div class="w3-third w3-section">
-            <ul class="w3-ul w3-white w3-hover-shadow">
-                <li class="w3-black w3-xlarge w3-padding-32">Pacote Premium</li>
-                <li class="w3-padding-16"><b>Algo</b>Algo </li>
-                <li class="w3-padding-16"><b>Algo</b>Algo</li>
-                <li class="w3-padding-16"><b>Algo</b>Algo</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide">$Preco</h2>
-                    <span class="w3-opacity"></span>
-                </li>
-                <li class="w3-light-grey w3-padding-24">
-                    <button class="w3-button w3-black w3-padding-large">Comprar</button>
-                </li>
-            </ul>
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">Contato</h3>
+        <p class="w3-center w3-large">Envie-nos uma mensagem</p>
+        <div style="margin-top:48px">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sao Paulo</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefones: Tio e Tia</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email Da Empresa</p>
+            <br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Sujeito" required name="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
+                <p>
+                    <button class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </p>
+            </form>
+            <!-- Image of location/map -->
+            <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
         </div>
     </div>
-</div>
 
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-    <h3 class="w3-center">Contato</h3>
-    <p class="w3-center w3-large">Envie-nos uma mensagem</p>
-    <div style="margin-top:48px">
-        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sao Paulo</p>
-        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefones: Tio e Tia</p>
-        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email Da Empresa</p>
-        <br>
-        <form action="/action_page.php" target="_blank">
-            <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
-            <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-            <p><input class="w3-input w3-border" type="text" placeholder="Sujeito" required name="Subject"></p>
-            <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
-            <p>
-                <button class="w3-button w3-black" type="submit">
-                    <i class="fa fa-paper-plane"></i> Enviar Mensagem
-                </button>
-            </p>
-        </form>
-        <!-- Image of location/map -->
-        <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
-    </div>
-</div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar Para Cima</a>
+        <div class="w3-xlarge w3-section">
+            <i class= "fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Feito Por <a href="https://www.facebook.com/RC-Designer-110576740741726" title="RcDesigner" target="_blank" class="w3-hover-text-green">RcDesigners</a></p>
+    </footer>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar Para Cima</a>
-    <div class="w3-xlarge w3-section">
-        <i class= "fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-    <p>Feito Por <a href="https://www.facebook.com/RC-Designer-110576740741726" title="RcDesigner" target="_blank" class="w3-hover-text-green">RcDesigners</a></p>
-</footer>
-
-<script>
-    // Modal Image Gallery
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-    }
-
-
-    // Toggle between showing and hiding the sidebar when clicking the menu icon
-    var mySidebar = document.getElementById("mySidebar");
-
-    function w3_open() {
-        if (mySidebar.style.display === 'block') {
-            mySidebar.style.display = 'none';
-        } else {
-            mySidebar.style.display = 'block';
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
         }
-    }
 
-    // Close the sidebar with the close button
-    function w3_close() {
-        mySidebar.style.display = "none";
-    }
-</script>
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
 
 </body>
